@@ -14,6 +14,8 @@ Follow link to install [pipenv](https://pypi.org/project/pipenv/)
 
 ## Run tests
 
+Test runs on Chrome and Mozilla, so please ensure you have both browsers installed.
+
 ### With HTML report
 
     pytest tests/ --html=report.html --self-contained-html
