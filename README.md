@@ -23,4 +23,6 @@ Follow link to install [pipenv](https://pypi.org/project/pipenv/)
 
     pytest tests/ --junitxml=unit.xml
 
+### Headless browser option
 
+    pytest tests/ --junitxml=unit.xml -H
